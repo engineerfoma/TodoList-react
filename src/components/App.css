@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  background-color: rgb(211, 205, 197);
+  height: 100vh;
+}
+
+.hover:hover {
+  opacity: .5;
+}

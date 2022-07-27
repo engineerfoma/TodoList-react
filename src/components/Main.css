@@ -1,0 +1,12 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list__input {
+    margin-top: 40px;
+    min-width: 200px;
+    width: 350px;
+}
