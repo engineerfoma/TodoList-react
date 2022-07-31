@@ -1,0 +1,15 @@
+@import './vars';
+
+.footer {
+    position: absolute;
+    bottom: 0;
+
+    &__logo {
+        text-align: start;
+        font-size: 14px;
+        padding-left: 40px;
+        background-color: $bckg-color;
+        font-family: $font;
+        font-weight: 500;
+    }
+}

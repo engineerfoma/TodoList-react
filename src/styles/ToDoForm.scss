@@ -1,0 +1,28 @@
+@import './vars';
+
+
+
+.list__input {
+    border: 1px solid rgba(000, 000, 000, .2);
+    max-height: 50px;
+    height: 8vh;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-family: $font;
+    box-shadow: 0 4px 5px gray;
+    
+    
+}
+
+.list__button {
+    margin-left: 10px;
+    max-height: 50px;
+    min-height: 32px;
+    height: 8vh;
+    border: none;
+    background-color: rgb(30, 144, 255);
+    box-shadow: 0 5px 5px gray;
+    color: white;
+    font-family: $font;
+    padding: 5px;
+}
