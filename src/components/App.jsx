@@ -19,7 +19,7 @@ function App() {
     }
   }
 
-  const handleRemoveTodo = (id) => {
+  const handleRemoveTodo= (id) => {
     setTodos([...todos.filter((todo) => todo.id !== id)])
   }
 
@@ -29,7 +29,7 @@ function App() {
       todo.id === id ? {...todo, complete: !todo.complete } : {...todo }
     )])
   }
-
+  
   return (
     <div className="App">
       <Header countTasks={todos.length} />
