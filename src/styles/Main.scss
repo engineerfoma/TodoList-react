@@ -1,8 +1,10 @@
 .list {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
+    min-height: 88vh;
+    padding-bottom: 20px;
 
     &__input {
         margin-top: 40px;

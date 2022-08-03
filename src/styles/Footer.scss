@@ -1,10 +1,11 @@
 @import './vars';
 
 .footer {
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    bottom: 25px;
 
     &__logo {
+        display: inline;
         text-align: start;
         font-size: 14px;
         padding-left: 40px;
